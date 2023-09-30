@@ -1,0 +1,116 @@
+.Dashboard {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  position: relative;
+  bottom: 38px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://miro.medium.com/max/1100/1*Px0v9T5EJXsfOWtLgadnmA.png);
+}
+
+.dash-title {
+  font-size: 42px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: -webkit-linear-gradient(
+    rgba(237, 226, 226, 0.943),
+    rgb(255, 227, 19)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.h3{
+  font-size: 30px;
+  letter-spacing: 4px;
+padding: 10px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icons {
+  margin-top: 50px;
+}
+
+.dash-icon {
+  color: black;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.dash-txt {
+  font: size 18px;
+  color: darkblue;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px;
+}
+
+.dash-btn {
+  border-radius: 20px;
+  margin: 50px !important;
+  padding: 20px !important;
+  border: none;
+  box-shadow: rgba(52, 177, 255, 0.568) 0px 30px 60px -12px inset,
+    rgba(52, 177, 255, 0.662) 0px 18px 36px -18px inset; 
+}
+
+/* dash button hover animated  */
+.dash-btn:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 1s ;
+  animation: pulse512 1s ;
+  cursor: pointer;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #f3f30abb;
+  }
+
+  50% {
+    box-shadow: 0 0 0 7px rgba(218, 198, 68, 0.557);
+  }
+
+  80% {
+    box-shadow: 0 0 0 0 rgba(218, 206, 68, 0.58);
+  }
+}
+/* dash button hover animated  */
+
+/* ---------------------------------------------------------------- */
+/* media query */
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  .dash-icon {
+    color: black;
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .dash-btn {
+    border-radius: 20px;
+    margin: 20px !important;
+    padding: 10px !important;
+    border: none;
+    box-shadow: rgba(52, 177, 255, 0.568) 0px 30px 60px -12px inset,
+      rgba(52, 177, 255, 0.662) 0px 18px 36px -18px inset;
+  }
+
+  .dash-title {
+    font-size: 22px;
+  }
+
+  .h3 {
+    font-size: 20px;
+    padding: 1px;
+    margin-top: 10px;
+  }
+
+}
+/* media query */
+/* ---------------------------------------------------------------- */
